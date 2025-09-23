@@ -1,0 +1,33 @@
+
+### `.gitignore`
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# Datos
+data/raw/
+data/interim/
+data/private/
+*.csv
+*.parquet
+*.xlsx
+*.zip
+
+# Sistemas
+.DS_Store
+Thumbs.db

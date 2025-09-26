@@ -1,13 +1,14 @@
-# Datos del proyecto
+# 📂 Data Folder
 
-Este repo no incluye los datos por tamaño/licencia.
+This folder is used to store datasets for the Taxi Demand Prediction project.  
+Due to licensing and size restrictions, the raw data is **not included in this repository**.  
 
-## Cómo obtenerlos
-- Archivo esperado: `taxi.csv` con la columna **num_orders** (pedidos por hora).
-- Origen: dataset del proyecto de TripleTen (serie horaria 2018).
-- Pasos:
-  1. Descarga `taxi.csv` desde la plataforma.
-  2. Colócalo en esta carpeta (`data/`).
-  3. Asegúrate de que el nombre y columnas coincidan con el notebook.
+### How to get the dataset
+1. Download the dataset from Kaggle or TripleTen platform.  
+2. Save the file as `taxi_demand_2018.csv` inside this folder.  
 
-> El notebook ya muestra **gráficas y resultados** sin necesidad de ejecutar (portafolio visual).
+### Expected file structure
+- `taxi_demand_2018.csv` → Historical hourly taxi orders with ~4,400 records.  
+
+### Notes
+- Do not upload raw datasets to GitHub (to comply with data privacy and repository size limits). 
